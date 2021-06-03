@@ -1,0 +1,17 @@
+.extender {
+    height: 120vh;
+    width: 100vw;
+    background-color: blue;
+}
+
+.toChange {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    transition: all 1s;
+}
+
+.change {
+    background-color: green;
+}
+

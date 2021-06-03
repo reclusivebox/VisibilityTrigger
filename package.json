@@ -1,0 +1,41 @@
+{
+  "name": "visibility-trigger",
+  "version": "1.0.0",
+  "description": "A react component to trigger certain actions when an element becomes visible.",
+  "main": "dist/VisibilityTrigger.js",
+  "types": "dist/VisibilityTrigger.d.ts",
+  "author": "Bruno Gregório",
+  "license": "MIT",
+  "private": false,
+  "files": ["dist/*"],
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/react": "^6.2.9",
+    "@types/react": "^17.0.8",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "babel-loader": "^8.2.2",
+    "builtin-modules": "^3.2.0",
+    "eslint": "^7.27.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.24.0",
+    "prettier": "^2.3.0",
+    "rollup": "^2.50.5",
+    "rollup-plugin-node-externals": "^2.2.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "storybook": "npm run build && start-storybook -p 6006",
+    "build-storybook": "npm run build && build-storybook",
+    "build": "rollup -c rollup.config.js",
+    "clean": "rm dist/*"
+  }
+}
