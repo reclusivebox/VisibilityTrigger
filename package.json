@@ -1,6 +1,6 @@
 {
   "name": "visibility-trigger",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A react component to trigger certain actions when an element becomes visible.",
   "main": "dist/VisibilityTrigger.js",
   "types": "dist/VisibilityTrigger.d.ts",
