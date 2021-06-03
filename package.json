@@ -7,7 +7,11 @@
   "author": "Bruno Gregório",
   "license": "MIT",
   "private": false,
-  "files": ["dist/*"],
+  "files": ["dist/*", "README.md"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reclusivebox/VisibilityTrigger"
+  },
   "devDependencies": {
     "@babel/core": "^7.14.3",
     "@storybook/addon-actions": "^6.2.9",
